@@ -29,7 +29,7 @@ const Projects = () => {
         },
         {
             bgImage: bg_image2,
-            demoURL: "https://amersyafiq.netlify.app",
+            demoURL: "https://amersyafiq.vercel.app",
             gitURL: "https://github.com/amersyafiq/portfolio",
             title: "Internship Application Portfolio",
             technology: [
