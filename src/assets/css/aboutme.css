@@ -1,0 +1,106 @@
+.aboutme {
+    padding: 2.5rem 3rem;
+}
+
+.content-line {
+    background-color: #FEC361;
+    height: 0.25prem;
+    width: 25%;
+    border-radius: 1rem;
+}
+
+.aboutme > div > h3 {
+    color: var(--var-text-grey);
+    font-size: 15px !important;
+    margin-bottom: 0.25rem;
+    font-family: 'Poppins';
+    font-weight: 400;
+  }
+
+.aboutme > div > p {
+    font-family: 'Poppins';
+    font-size: 15px !important;
+    font-weight: 300;
+    color: var(--var-text-lightgrey);
+}
+
+.biography-title {
+    display: flex;
+    align-items: center;
+    border: none;
+    position: relative;
+}
+
+.biography { position: relative; }
+
+.biography::after {
+    content: '';
+    position: absolute;
+    width: 2px;
+    height: 100%;
+    background-color: var(--var-card-border);
+    top: 44px;
+    left: 22.5px;
+}
+
+.biography:last-child::after {
+    all: unset;
+}
+
+.biography-logo-container > img {
+    width: 2.75rem;
+    height: 2.75rem;
+    padding: 0.65rem;
+    background-color: var(--var-card-bg);
+    background: linear-gradient(to top left, var(--var-card-bg) 25%, var(--var-card-border) 100%) padding-box,
+                linear-gradient(to top left, var(--var-card-bg) 40%, #565657 100%) border-box;
+    border: 1px solid transparent;
+    border-radius: 10px;
+}
+
+
+.biography-title > h3 {
+    font-size: 20px;
+    font-weight: 400;
+    height: 100%;
+    background-color: #FEC361;
+    padding: 0.5rem 2rem;
+    border-radius: 0 1rem 1rem 0;
+    background: linear-gradient(to top right, var(--var-card-bg) 50%, #fec261a8 150%) padding-box,
+                    linear-gradient(to top right, var(--var-card-bg) 50%, #FEC361) border-box;
+    border: 2px solid transparent;
+}
+
+.biography > p {
+    text-align: justify;
+    margin-left: 4rem;
+    font-family: 'Poppins';
+}
+
+.biography > p > b {
+    font-family: 'Poppins';
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+}
+
+.education {
+    display: flex;
+    margin-left: 4rem;
+}
+
+.education > .education-container {
+    padding: 1rem;
+    flex-grow: 1;
+    background-color: var(--var-card-bg);
+    background: linear-gradient(to left, var(--var-card-bg) 25%, var(--var-card-border) 100%) padding-box,
+                linear-gradient(to top left, var(--var-card-bg) 40%, #565657 100%) border-box;
+    border: 1px solid transparent;
+    border-radius: 10px;
+}
+
+@media only screen and (max-width: 800px) {
+    .aboutme {
+        padding: 2.5rem 1rem;
+        overflow: scroll !important;
+    }
+}

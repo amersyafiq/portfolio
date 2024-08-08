@@ -1,0 +1,49 @@
+.skills {
+    padding: 3.5rem 3rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.skills-container {
+    display: flex;
+    flex-direction: column;
+    user-select: none;
+}
+
+.skills-container > h5 {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Poppins';
+    color: var(--var-text-grey);
+}
+
+
+.skills-items-container {
+    background: linear-gradient(to left, var(--var-card-bg) 25%, var(--var-card-border) 100%) padding-box,
+                linear-gradient(to top left, var(--var-card-bg) 40%, #565657 100%) border-box;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    padding: 0.75rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skills-items {
+    background-color: white;
+    display: flex;
+    max-width: fit-content;
+    padding: 0.25rem 1rem;
+    border-radius: 5rem;
+    align-items: center;
+    box-shadow: 1px 1px 10px 0 black;
+}
+
+.skills-items > img {
+    height: 40px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.skills-items > p {
+    font-family: 'Poppins';
+}
