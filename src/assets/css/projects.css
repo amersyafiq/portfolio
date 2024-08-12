@@ -131,6 +131,14 @@
     position: relative;
 }
 
+.imgMulti {
+    border-radius: 10px !important;
+    display: flex;
+    flex-grow: 1;
+    max-width: 100%;
+    object-fit: cover !important;
+}
+
 .carousel-control-prev {
     left: -43px !important;
 }

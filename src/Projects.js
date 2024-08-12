@@ -148,7 +148,7 @@ const Projects = () => {
                                 <div>
                                     <div className='projects-img-container'>
                                         <div className='position-relative'>
-                                            <img src={media.mediaImg} className='imgCar' alt="" />
+                                            <img src={media.mediaImg} className='imgMulti' alt="" />
                                             <div className='multimedia-tags d-flex'>
                                                 {
                                                     media.tags.map((tag)=>{
