@@ -123,6 +123,7 @@
     border-radius: 10px !important;
     display: flex;
     flex-grow: 1;
+    max-height: 20rem !important;
     max-width: 100%;
     object-fit: cover !important;
    
