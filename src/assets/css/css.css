@@ -66,6 +66,7 @@ body {
     border-bottom: solid 1.5px var(--var-card-border);
     width: 20rem !important;
     height: 100% !important;
+    background-color: var(--var-card-bg);
     border-bottom-left-radius: 20px;
     position: relative;
     display: flex;
