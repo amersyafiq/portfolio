@@ -5,6 +5,7 @@ import { Carousel, Container} from 'react-bootstrap'
 import Masonry from 'react-masonry-css'
 import bg_image1 from './assets/img/sys_img1.png'
 import bg_image2 from './assets/img/sys_img2.jpg'
+import bg_image3 from './assets/img/dr_azri_web.png'
 import media_img1 from './assets/img/ENT300_IMG1.png'
 import media_img2 from './assets/img/food4u.png'
 import media_img3 from './assets/img/ENT300_IMG16.png'
@@ -17,6 +18,15 @@ const Projects = () => {
     const [type, setType] = useState('system');
 
     const systemData = [
+        {
+            bgImage: bg_image3,
+            figmaURL: "https://www.figma.com/design/Z03hRYfiruZRHXG2gESkYq/Untitled?node-id=3-2&t=x1dJY4iZxZuLF3r5-1",
+            title: "Dr Azri Perfume Website Prototyping",
+            technology: [
+                "Figma", "Blender"
+            ],
+            desc: "Prototype of Dr. Azri Perfume website UI/UX in both desktop and mobile version. Process begins with low-fidelity wireframing and then proceed to high fidelity prototyping."
+        },
         {
             bgImage: bg_image1,
             demoURL: "https://thefood4uproject.000webhostapp.com/index.php",
@@ -109,8 +119,9 @@ const Projects = () => {
                                     <div className='projects-img-container'>
                                         <img src={system.bgImage} className='imgCar' alt="" />
                                         <div className='projects-item-buttons d-flex gap-2 ms-3 mb-1'>
-                                            <a href={system.demoURL} target="_blank" className="btn btn-primary">DEMO</a>
-                                            <a href={system.gitURL} target="_blank" className="btn btn-secondary">GITHUB</a>
+                                            { system.demoURL && <a href={system.demoURL} target="_blank" className="btn btn-primary">DEMO</a> }
+                                            { system.gitURL && <a href={system.gitURL} target="_blank" className="btn btn-secondary">GITHUB</a> }
+                                            { system.figmaURL && <a href={system.figmaURl} target="_blank" className="btn btn-primary">FIGMA</a> }
                                         </div>
                                     </div>
                                     <div className='projects-item-caption gap-1 flex-column justify-content-top h-100'>
