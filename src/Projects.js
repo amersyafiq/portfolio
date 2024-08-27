@@ -121,7 +121,7 @@ const Projects = () => {
                                         <div className='projects-item-buttons d-flex gap-2 ms-3 mb-1'>
                                             { system.demoURL && <a href={system.demoURL} target="_blank" className="btn btn-primary">DEMO</a> }
                                             { system.gitURL && <a href={system.gitURL} target="_blank" className="btn btn-secondary">GITHUB</a> }
-                                            { system.figmaURL && <a href={system.figmaURl} target="_blank" className="btn btn-primary">FIGMA</a> }
+                                            { system.figmaURL && <a href={system.figmaURL} target="_blank" className="btn btn-primary">FIGMA</a> }
                                         </div>
                                     </div>
                                     <div className='projects-item-caption gap-1 flex-column justify-content-top h-100'>
