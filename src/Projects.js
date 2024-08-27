@@ -25,7 +25,7 @@ const Projects = () => {
             technology: [
                 "Figma", "Blender"
             ],
-            desc: "Prototype of Dr. Azri Perfume website UI/UX in both desktop and mobile version. Process begins with low-fidelity wireframing and then proceed to high fidelity prototyping."
+            desc: "Prototype of Dr. Azri Perfume website UI/UX in both desktop and mobile version. Process begins with low-fidelity wireframing and then proceed to the prototype."
         },
         {
             bgImage: bg_image1,
